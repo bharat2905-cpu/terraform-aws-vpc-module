@@ -6,9 +6,9 @@ This Terraform module creates an AWS VPC with a given CIDR block. It also create
 
 ## First we will add the IAM user access_key and secret_key for run this command:
 - aws comfigure
-  AWS Access Key ID : ******************
-  AWS Secret Access Key : *************************
-  Default Region Name : ap-south-1
+  1. AWS Access Key ID : ******************
+  2. AWS Secret Access Key : *************************
+  3. Default Region Name : ap-south-1
 ## Features
 
 - Creates a VPC with a specified CIDR block
