@@ -4,6 +4,11 @@
 
 This Terraform module creates an AWS VPC with a given CIDR block. It also creates multiple subnets (public and private), and for public subnets, it sets up an Internet Gateway (IGW) and appropriate route tables.
 
+## First we will add the IAM user access_key and secret_key for run this command:
+- aws comfigure
+  AWS Access Key ID : ******************
+  AWS Secret Access Key : *************************
+  Default Region Name : ap-south-1
 ## Features
 
 - Creates a VPC with a specified CIDR block
